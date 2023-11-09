@@ -13,11 +13,8 @@ public class Function {
         this(10, b);
     }
 
+    public Function() {this(10, 5);}
     public void result(){
         System.out.println(a + "x + " + b);
-    }
-
-    public Function() {
-        this(10, 5);
     }
 }
