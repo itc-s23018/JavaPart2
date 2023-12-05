@@ -1,8 +1,9 @@
 package chapter10_2;
 
-public class Rate1 implements RateInf{
+public class Rate2 implements RateInf{
+
     @Override
     public double taxRate(int gaku) {
-        return gaku > 100 ? 0.1 : 0.05;
+        return gaku > 80 ? 0.12 : 0.04;
     }
 }

@@ -1,5 +1,5 @@
 package chapter10_2;
 
-public interface Ratelnff {
+public interface RateInf {
     double taxRate(int gaku);
-}
+    }

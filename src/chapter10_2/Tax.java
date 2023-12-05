@@ -11,7 +11,7 @@ public class Tax {
         this.shotoku = shotoku;
     }
 
-    public int zeigaku(Ratelnff r) {
+    public int zeigaku(RateInf r) {
         return  (int) (shotoku * r.taxRate(shotoku));
     }
 
